@@ -1,0 +1,17 @@
+@import '../../../../../styles/variables';
+
+.message-wrapper{
+    overflow-y:scroll;
+}
+.select-room{
+    .select-room-message{
+        width:30%;
+        height:5%;
+        margin-bottom: 10%;
+        border:2px solid $gold;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2em;
+        display: flex;
+    }
+}

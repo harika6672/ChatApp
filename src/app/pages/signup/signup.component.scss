@@ -1,0 +1,26 @@
+@import '../../../styles/variables';
+
+
+h2{
+    color:$secondary;
+    margin-bottom: 1em;
+}
+.form-wrapper{
+    min-width: 40%;
+    margin-bottom: 10%;
+    border:2px solid $light-grey;
+    padding:1em 2em;
+}
+.form-control{
+   margin-bottom: 1em;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+.firstName{
+    margin-right: 0.5em;
+}
+.lastName{
+    margin-left: 0.5em;
+}
